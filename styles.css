@@ -1,0 +1,30 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#clock {
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  color: #aaa;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #999, #333);
+  outline: none;
+}
